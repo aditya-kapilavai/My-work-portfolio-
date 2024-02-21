@@ -1,0 +1,3 @@
+/media/helium/Share/Kandidat/Semester_1/Robotics_and_Computer_vision/Shared_VM/Vision/mini_project/program/build/CMakeFiles/rebuild_cache.dir
+/media/helium/Share/Kandidat/Semester_1/Robotics_and_Computer_vision/Shared_VM/Vision/mini_project/program/build/CMakeFiles/mini_project.dir
+/media/helium/Share/Kandidat/Semester_1/Robotics_and_Computer_vision/Shared_VM/Vision/mini_project/program/build/CMakeFiles/edit_cache.dir

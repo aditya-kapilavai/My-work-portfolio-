@@ -1,0 +1,3 @@
+/home/student/.git/branches/rovi1/Vision/mini_project/program/img2/CMakeFiles/rebuild_cache.dir
+/home/student/.git/branches/rovi1/Vision/mini_project/program/img2/CMakeFiles/img2.dir
+/home/student/.git/branches/rovi1/Vision/mini_project/program/img2/CMakeFiles/edit_cache.dir
