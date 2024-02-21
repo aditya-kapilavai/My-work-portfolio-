@@ -1,0 +1,16 @@
+function [Ja]=J_a(q1,d2,a2,a3,a4,a5,a6,q2,q3,q4,al,ga,th)
+
+
+Ja =[ 0, -cos(q2)*(a2 + a5*cos(q3 + q4) + a6*cos(q3 + q4) + a3*cos(q3) + a4*cos(q3)),  sin(q2)*(a5*sin(q3 + q4) + a6*sin(q3 + q4) + a3*sin(q3) + a4*sin(q3)),                       sin(q3 + q4)*sin(q2)*(a5 + a6);...
+ 0,                                                                           0,          - a5*cos(q3 + q4) - a6*cos(q3 + q4) - a3*cos(q3) - a4*cos(q3),                              -cos(q3 + q4)*(a5 + a6);...
+ 1, -sin(q2)*(a2 + a5*cos(q3 + q4) + a6*cos(q3 + q4) + a3*cos(q3) + a4*cos(q3)), -cos(q2)*(a5*sin(q3 + q4) + a6*sin(q3 + q4) + a3*sin(q3) + a4*sin(q3)),                      -sin(q3 + q4)*cos(q2)*(a5 + a6);...
+ 0,                                                      -tan(ga)*sin(th),                   sin(q2) + (cos(q2)*cos(th)*sin(ga))/cos(ga), sin(q2) + (cos(q2)*cos(th)*sin(ga))/cos(ga);...
+ 0,                                                                 -cos(th),                                                    -cos(q2)*sin(th),                                  -cos(q2)*sin(th);...
+ 0,                                                      -sin(th)/cos(ga),                                        (cos(q2)*cos(th))/cos(ga),                      (cos(q2)*cos(th))/cos(ga)];
+ 
+% d2=12.0349;
+% a2=7.907;
+% a3=8.862;
+% a4=15;
+% a5=8.862;
+% a6=15;

@@ -1,0 +1,131 @@
+#VRML V2.0 utf8
+
+#Created with V-Realm Builder v2.0
+#Integrated Data Systems Inc.
+#www.ids-net.com
+
+
+DEF Q1 Transform {
+	translation	-8.87455 2.65431 -1.72853e-006
+	children [ 
+	    Shape {
+		    appearance	Appearance {
+			    material	Material {
+			    }
+
+		    }
+
+		    geometry	Box {
+			    size	1.4 1.6 1.4
+		    }
+
+	    }
+
+	    DEF Q2 Transform {
+		    translation	0.387006 -0.702978 0.164688
+		    children [ 
+			Shape {
+				appearance	Appearance {
+					material	Material {
+					}
+
+				}
+
+				geometry	Cylinder {
+					height	1.2
+					radius	0.3
+				}
+
+			}
+
+			DEF A2 Transform {
+				translation	0.189999 -0.918453 -0.0718878
+				children [ 
+				    Shape {
+					    appearance	Appearance {
+						    material	Material {
+						    }
+
+					    }
+
+					    geometry	Box {
+						    size	0.7907 1 1
+					    }
+
+				    }
+
+				    DEF Q3 Transform {
+					    translation	0.877413 0.00832689 -1.78814e-007
+					    children [ 
+						Shape {
+							appearance	Appearance {
+								material	Material {
+								}
+
+							}
+
+							geometry	Sphere {
+								radius	0.5
+							}
+
+						}
+
+						DEF A3A4 Transform {
+							translation	1.68146 1.33413e-006 0.0109196
+							children [ 
+							    Shape {
+								    appearance	Appearance {
+									    material	Material {
+									    }
+
+								    }
+
+								    geometry	Box {
+									    size	2.3862 1 1
+								    }
+
+							    }
+
+							    DEF Q4 Transform {
+								    translation	1.69037 9.53674e-006 0
+								    children [ 
+									Shape {
+										appearance	Appearance {
+											material	Material {
+											}
+
+										}
+
+										geometry	Sphere {
+											radius	0.5
+										}
+
+									}
+
+									DEF A5A6 Transform {
+										translation	1.71627 -2.16644e-007 -0.0733224
+										children Shape {
+											appearance	Appearance {
+												material	Material {
+												}
+
+											}
+
+											geometry	Box {
+												size	2.3862 1 1
+											}
+
+										}
+									}
+								    ]
+							    }
+							]
+						}
+					    ]
+				    }
+				]
+			}
+		    ]
+	    }
+	]
+}

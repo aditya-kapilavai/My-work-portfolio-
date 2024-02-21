@@ -1,0 +1,136 @@
+#VRML V2.0 utf8
+
+#Created with V-Realm Builder v2.0
+#Integrated Data Systems Inc.
+#www.ids-net.com
+
+
+DEF Q1 Transform {
+	translation	-8.87455 2.65431 -1.72853e-006
+	children [ 
+	    Shape {
+		    appearance	Appearance {
+			    material	Material {
+				    specularColor	0 0 0
+			    }
+
+		    }
+
+		    geometry	Box {
+			    size	1.4 1.6 1.4
+		    }
+
+	    }
+
+	    DEF Q2 Transform {
+		    translation	0.387023 -0.70298 0.164688
+		    children [ 
+			Shape {
+				appearance	Appearance {
+					material	Material {
+					}
+
+				}
+
+				geometry	Cylinder {
+					height	1.2
+					radius	0.3
+				}
+
+			}
+
+			DEF A2 Transform {
+				translation	0.189991 -0.918455 -0.0718876
+				children [ 
+				    Shape {
+					    appearance	Appearance {
+						    material	Material {
+						    }
+
+					    }
+
+					    geometry	Box {
+						    size	0.7907 1 1
+					    }
+
+				    }
+
+				    DEF Q3 Transform {
+					    translation	0.899824 0.0363362 -0.0289006
+					    rotation	0.999938 -9.31323e-010 0.0111104  1.5708
+					    scale	0.999997 0.999996 1
+					    children [ 
+						Shape {
+							appearance	Appearance {
+								material	Material {
+								}
+
+							}
+
+							geometry	Cylinder {
+								height	1
+								radius	0.5
+							}
+
+						}
+
+						DEF A3A4 Transform {
+							translation	1.68146 1.33413e-006 0.0109196
+							children [ 
+							    Shape {
+								    appearance	Appearance {
+									    material	Material {
+									    }
+
+								    }
+
+								    geometry	Box {
+									    size	2.3862 1 1
+								    }
+
+							    }
+
+							    DEF Q4 Transform {
+								    translation	1.66321 -3.24386e-007 -0.000252668
+								    children [ 
+									Shape {
+										appearance	Appearance {
+											material	Material {
+											}
+
+										}
+
+										geometry	Cylinder {
+											height	1
+											radius	0.5
+										}
+
+									}
+
+									Transform {
+										translation	1.71627 -2.16644e-007 -0.0733224
+										children Shape {
+											appearance	Appearance {
+												material	Material {
+												}
+
+											}
+
+											geometry	Box {
+												size	2.3862 1 1
+											}
+
+										}
+									}
+								    ]
+							    }
+							]
+						}
+					    ]
+				    }
+				]
+			}
+		    ]
+	    }
+	]
+}
